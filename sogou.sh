@@ -1,6 +1,6 @@
 #install sogoupinyin
 
-echo "1122" | sudo pacman -S fcitx fcitx-qt4 fcitx-qt5 fcitx-gtk2 fcitx-gtk3 fcitx-configtool opencc lsb-release
+echo "y" | sudo pacman -Syy fcitx fcitx-qt4 fcitx-qt5 fcitx-gtk2 fcitx-gtk3 fcitx-configtool opencc lsb-release
 
 cat <<EOF > ~/.xprofile
 export GTK_IM_MODULE=fcitx
