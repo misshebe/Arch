@@ -1,0 +1,53 @@
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-08-13T16:16:27 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2017-08-13T16:16:27 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2017-08-13T16:16:27 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2017-08-13T16:16:27 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2017-08-13T16:16:27 kcookiescfg.upd: Found new update 'kde4.10/git'
+2017-08-13T16:16:27 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2017-08-13T16:16:27 kio_help.upd: Found new update 'kde3_2'
+2017-08-13T16:16:27 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2017-08-13T16:16:27 [Script] mv: 无法获取'/home/surface/.kde4/share/apps/kio_help/cache' 的文件状态(stat): 没有那个文件或目录
+2017-08-13T16:16:27 [Script] rmdir: 删除 '/home/surface/.kde4/share/apps/kio_help' 失败: 没有那个文件或目录
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2017-08-13T16:16:27 kded.upd: Found new update 'kde3.0'
+2017-08-13T16:16:27 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2017-08-13T16:16:27 kioslave.upd: Found new update 'kde2.2/r1'
+2017-08-13T16:16:27 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2017-08-13T16:16:27 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-08-13T16:16:27 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2017-08-13T16:16:27 kioslave.upd: Found new update 'kde2.2/r2'
+2017-08-13T16:16:27 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2017-08-13T16:16:27 kioslave.upd: Found new update 'kde2.2/r3'
+2017-08-13T16:16:27 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-08-13T16:16:27 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2017-08-13T16:16:27 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2017-08-13T16:16:27 [Script] rm: 无法删除'/home/surface/.kde4//share/config/ksslcertificatemanager': 没有那个文件或目录
+2017-08-13T16:16:27 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2017-08-13T16:16:27 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2017-08-13T16:16:27 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2017-08-13T16:16:27 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2017-08-13T16:16:27 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-08-13T16:16:27 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2017-08-13T16:16:27 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2017-08-13T16:16:27 kuriikwsfilter.upd: Found new update 'pre-kde4.9'
+2017-08-13T16:16:27 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2017-08-13T16:16:27 Checking update-file '/usr/share/apps/kconf_update/kwallet-4.13.upd' for new updates
+2017-08-13T16:16:27 kwallet-4.13.upd: Found new update 'kde4.13'
+2017-08-13T16:16:27 kwallet-4.13.upd: File 'kwalletrc' does not exist or empty, skipping
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2017-09-10T22:43:51 kioslave.upd: Found new update 'kde2.2/r1'
+2017-09-10T22:43:51 kioslave.upd: Skipping update 'kde2.2/r1'
+2017-09-10T22:43:51 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2017-09-10T22:43:51 Checking update-file '/usr/share/apps/kconf_update/kwallet-4.13.upd' for new updates
