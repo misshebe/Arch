@@ -58,7 +58,7 @@ bindsym Mod4+l exec --no-startup-id i3lock -i '/home/surface/Arch/guaishou.jpg'
 
 #===============自动启动fcitx===============
 exec --no-startup-id fcitx
-bindsym $mod+e exec nautilus
+bindsym $mod+e exec thunar 
 
 #===============音量控制===============
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q sset Master 5%+
@@ -70,10 +70,11 @@ bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset Master 5%-
 
 #===============打开终端===============
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec lilyterm
+bindsym $mod+Return exec urxvt
 
 #===============关闭窗口===============
-bindsym Control+Mod1+w kill
+#bindsym Control+Mod1+w kill
+bindsym Mod4+q kill
 
 #===============打开dmenu===============
 # start dmenu (a program launcher)
@@ -138,7 +139,7 @@ bindsym $mod+Shift+minus move scratchpad
 #===============切换存储器中的窗口===============
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym Mod1+minus scratchpad show
+bindsym Mod4+minus scratchpad show
 
 #===============绑定workspace快捷键===============
 # switch to workspace
@@ -180,6 +181,7 @@ bindsym $mod+Shift+0 move container to workspace 10:Other
 
 #===============指定程序打开后出现在指定工作区===============
 assign [class="chrome"] 2:Web
+assign [class="chromium"] 2:Web
 # assign [class="idea"] 3:Dev
 # assign [class="VirtualBox"] 9:Other
 
@@ -210,7 +212,7 @@ mode "resize" {
 }
 
 #===============绑定调整窗口大小快捷键===============
-bindsym $mod+r mode "resize"
+bindsym $mod+s mode "resize"
 
 #===============开启i3时自启动项===============
 exec_always --no-startup-id feh --bg-fill /home/surface/Arch/guaishou.jpg
