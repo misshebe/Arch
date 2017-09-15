@@ -5,4 +5,6 @@
 path: /home/surface/.sogouinput
 蓝天双拼
 
+sogou.ssf是搜狗输入法皮肤 双击安装
+
 .kde是kde桌面的配置 
