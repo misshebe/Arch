@@ -53,7 +53,7 @@ mode "$mode_system" {
 focus_follows_mouse no
 
 #===============锁屏快捷键===============
-bindsym $mod+l exec --no-startup-id i3lock -i /home/surface/Arch/archcool.jpg
+bindsym $mod+l exec --no-startup-id i3lock -i /home/surface/Arch/wallpaper/archcool.jpg
 
 
 #===============自动启动fcitx===============
@@ -218,7 +218,7 @@ mode "resize" {
 bindsym $mod+s mode "resize"
 
 #===============开启i3时自启动项===============
-exec_always --no-startup-id feh --bg-fill /home/surface/Arch/guaishou.jpg
+exec_always --no-startup-id feh --bg-fill /home/surface/Arch/wallpaper/guaishou.jpg
 exec --no-startup-id i3-config-wizard
 exec --no-startup-id mate-power-manager 
 exec --no-startup-id i3-msg "workspace 1:Info"
